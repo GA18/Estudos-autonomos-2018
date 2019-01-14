@@ -1423,6 +1423,12 @@ MonoBehaviour:
   playerPrefab: {fileID: 1637002712429502, guid: 1e2195bff4158fb4286c0b200e740a74,
     type: 2}
   timeToRespawn: 2
+  ui:
+    hud:
+      txtCoinCount: {fileID: 1376184333}
+      txtLifeCount: {fileID: 771080058}
+      txtTimer: {fileID: 1326493793}
+      hudPanel: {fileID: 653541074}
 --- !u!4 &600598955
 Transform:
   m_ObjectHideFlags: 0
@@ -1718,7 +1724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 458.9, y: 8.3}
+  m_AnchoredPosition: {x: 458.9, y: 3.0000129}
   m_SizeDelta: {x: 58.2, y: 56.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722018758
@@ -1953,7 +1959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 370.2, y: 8.3}
+  m_AnchoredPosition: {x: 370.2, y: 3.0000129}
   m_SizeDelta: {x: 58.2, y: 56.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984858638
@@ -2383,7 +2389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33, y: 8.3249}
+  m_AnchoredPosition: {x: 33, y: 0.00001049}
   m_SizeDelta: {x: 160, y: 56.339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326493793
@@ -6067,7 +6073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 294, y: 8.3}
+  m_AnchoredPosition: {x: 294, y: 3}
   m_SizeDelta: {x: 58.2, y: 56.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1850755713
