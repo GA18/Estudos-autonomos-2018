@@ -18,7 +18,7 @@ public class GM : MonoBehaviour {
 
 	public float timeToKill = 1.5f;
 
-	public float maxTime = 120f;
+	public float maxTime = 360f;
 	bool timerOn = true;
 
 	float timeLeft;
