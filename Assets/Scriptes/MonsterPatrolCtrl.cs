@@ -34,4 +34,3 @@ public class MonsterPatrolCtrl : MonoBehaviour {
 		Gizmos.DrawLine(pos1.position, pos2.position);
 	}
 }
-
