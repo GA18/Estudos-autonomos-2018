@@ -122,7 +122,10 @@ public class PlayerCtrl : MonoBehaviour {
 
 		if (other.gameObject.layer == LayerMask.NameToLayer("Ground")){
 			isJumping = false;
-
+		}
+		else if (other.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
+			anim.SetInteger("State", 5);
+			GM.instance.HurtPlayer();
 		}
 	}
 

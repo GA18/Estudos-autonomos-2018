@@ -2366,6 +2366,7 @@ MonoBehaviour:
   playerPrefab: {fileID: 1637002712429502, guid: 1e2195bff4158fb4286c0b200e740a74,
     type: 2}
   timeToRespawn: 2
+  timeToKill: 1.5
   maxTime: 120
   ui:
     hud:
